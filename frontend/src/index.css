@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --canvas: #F5F2EB;
+  --surface-inset: #FBFAF7;
+  --surface-subtle: #EDEAE2;
+  --text-primary: #252822;
+  --text-secondary: #666A61;
+  --divider: #DADCD2;
+  --border-control: #82877D;
+  --sidebar-bg: #12332B;
+  --sidebar-row-active: #21483C;
+  --sidebar-text: #F5F2EB;
+  --sidebar-text-muted: #C4D3CA;
+  --btn-primary: #294E43;
+  --btn-primary-hover: #1D4036;
+  --danger-text: #B93832;
+  --danger-bg: #F8EAE5;
+  --warning-text: #89600C;
+  --warning-bg: #F5EBD4;
+  --focus-outline: #376C5A;
+  --sidebar-status-crit: #FF8B80;
+  --sidebar-status-warn: #F4C76A;
+  --sidebar-status-norm: #9DCEB8;
+}
+
+@layer base {
+  body {
+    background-color: var(--canvas);
+    color: var(--text-primary);
+    font-family: 'Source Sans 3', 'Segoe UI', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Source Serif 4', Georgia, serif;
+  }
+}
+
+/* Tabular numerals for financial data */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Scrollbar in Dark Forest & Ivory */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(130, 135, 125, 0.35);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(130, 135, 125, 0.6);
+}
