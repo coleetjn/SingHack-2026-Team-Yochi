@@ -1,0 +1,1282 @@
+{
+  "CL-0001": {
+    "name": "Hartono Wijaya Kusuma",
+    "tax_domicile": "Indonesia",
+    "risk_profile": "Balanced Growth",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": 78.5,
+        "collateral": 19.97,
+        "drawn": 8.0,
+        "aum": 39.57
+      },
+      {
+        "date": "Feb 28",
+        "ltv": 75.68,
+        "collateral": 20.72,
+        "drawn": 8.0,
+        "aum": 40.77
+      },
+      {
+        "date": "Mar 31",
+        "ltv": 58.86,
+        "collateral": 26.76,
+        "drawn": 8.0,
+        "aum": 44.62
+      },
+      {
+        "date": "Jun 30",
+        "ltv": 62.18,
+        "collateral": 25.3,
+        "drawn": 8.0,
+        "aum": 45.46
+      },
+      {
+        "date": "Aug 26",
+        "ltv": 59.15,
+        "collateral": 26.62,
+        "drawn": 8.0,
+        "aum": 46.57
+      }
+    ],
+    "hasFacility": true,
+    "facilityType": "Lombard Credit Facility",
+    "triggerLtv": 70.0,
+    "concentration": {
+      "name": "Bara Nusantara Energy",
+      "value": 41.4,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-02-28 (Severe): United States and Israel commence military operations against Iran.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "SGD 9.0m",
+      "horizon": "Deposit on Singapore residential property purchase (2027-03)"
+    },
+    "narrative": "Lombard LTV is at 59.1% with a 10.8% cushion below the 70.0% trigger. Grounded market catalyst: Event on 2026-02-28 (Severe): United States and Israel commence military operations against Iran.. Mandate status: FLAGGED (Top exposure 41.42% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": 7.17,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0002": {
+    "name": "Ravi Chandrasekaran",
+    "tax_domicile": "Singapore",
+    "risk_profile": "Growth",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": 63.32,
+        "collateral": 11.88,
+        "drawn": 4.8,
+        "aum": 43.8
+      },
+      {
+        "date": "Feb 28",
+        "ltv": 59.72,
+        "collateral": 12.68,
+        "drawn": 4.8,
+        "aum": 44.6
+      },
+      {
+        "date": "Mar 31",
+        "ltv": 61.68,
+        "collateral": 12.23,
+        "drawn": 4.8,
+        "aum": 44.15
+      },
+      {
+        "date": "Jun 30",
+        "ltv": 75.64,
+        "collateral": 14.37,
+        "drawn": 6.5,
+        "aum": 46.29
+      },
+      {
+        "date": "Aug 26",
+        "ltv": 73.71,
+        "collateral": 14.78,
+        "drawn": 6.5,
+        "aum": 46.7
+      }
+    ],
+    "hasFacility": true,
+    "facilityType": "Lombard Credit Facility",
+    "triggerLtv": 75.0,
+    "concentration": {
+      "name": "Aranya Technologies",
+      "value": 68.3,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 4.2m",
+      "horizon": "Estimated Singapore tax on secondary share sale (2027-01)"
+    },
+    "narrative": "Lombard LTV is at 73.7% with a 1.3% cushion below the 75.0% trigger. Grounded market catalyst: Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.. Mandate status: FLAGGED (Top exposure 68.35% vs 12.0% cap). Framing note: Pitch margin de-leveraging as safeguarding runway for his Q4 secondary sale rather than parting with tech shares.",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -9.43,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0003": {
+    "name": "Margarethe Voss-Brenner",
+    "tax_domicile": "Germany",
+    "risk_profile": "Conservative",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 23.52
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 23.87
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 22.15
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 22.17
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 22.18
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Global Luxury and Consumer Brands",
+      "value": 26.1,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "EUR 3.4m",
+      "horizon": "German inheritance tax instalment (2026-10)"
+    },
+    "narrative": "Client maintains a 26.1% look-through exposure in Global Luxury and Consumer Brands. Grounded market catalyst: Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.. Mandate status: FLAGGED (Top exposure 26.06% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.53,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0004": {
+    "name": "Chalermchai Suphanburi",
+    "tax_domicile": "Thailand",
+    "risk_profile": "Income",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 35.82
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 36.22
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 34.41
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 33.78
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 33.45
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Global Investment Grade orate Bond",
+      "value": 16.0,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 1.4m",
+      "horizon": "Annual retirement drawdown from Q2 2027 (2027-04)"
+    },
+    "narrative": "Client maintains a 16.0% look-through exposure in Global Investment Grade orate Bond. Grounded market catalyst: Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.. Mandate status: FLAGGED (Top exposure 16.0% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.68,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0005": {
+    "name": "Aishah binti Rahman",
+    "tax_domicile": "Malaysia",
+    "risk_profile": "Sustainable Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.85
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 19.07
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 19.31
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 19.22
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 19.4
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Global Developed Equity Index",
+      "value": 14.7,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "SGD 180k",
+      "horizon": "Children's university fees, Australia (2026-09)"
+    },
+    "narrative": "Client maintains a 14.7% look-through exposure in Global Developed Equity Index. Grounded market catalyst: Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.. Mandate status: FLAGGED (Top exposure 14.72% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -1.66,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0006": {
+    "name": "Nguyen Thi Bao Tran",
+    "tax_domicile": "Singapore",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 19.25
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 19.22
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.4
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.29
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.07
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Singapore Government Securities due 2036",
+      "value": 22.5,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "no market cause found",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 5.0m",
+      "horizon": "US university fees, two children (2026-09)"
+    },
+    "narrative": "Client maintains a 22.5% look-through exposure in Singapore Government Securities due 2036. Market catalyst: no market cause found. Mandate status: FLAGGED (Top exposure 22.54% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -6.75,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0007": {
+    "name": "Alistair Pemberton-Hale",
+    "tax_domicile": "United Kingdom",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 37.11
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 39.89
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 40.3
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 40.06
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 40.02
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Global Developed Equity Index",
+      "value": 13.1,
+      "limit": 12.0,
+      "status": "FLAGGED-BUT-WAIVED"
+    },
+    "eventDetails": "Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 12.0m",
+      "horizon": "Initial endowment of charitable foundation (2027-01)"
+    },
+    "narrative": "Client maintains a 13.1% look-through exposure in Global Developed Equity Index. Grounded market catalyst: Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.. Mandate status: FLAGGED-BUT-WAIVED (Top exposure 13.08% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.0,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0008": {
+    "name": "Chen Wei Ling",
+    "tax_domicile": "Singapore",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 12.14
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 12.28
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 11.88
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 11.95
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 11.95
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Singapore Government Securities due 2036",
+      "value": 17.0,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "no market cause found",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "SGD 420k",
+      "horizon": "University fees, two children (2027-01)"
+    },
+    "narrative": "Client maintains a 17.0% look-through exposure in Singapore Government Securities due 2036. Market catalyst: no market cause found. Mandate status: FLAGGED (Top exposure 17.04% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.57,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0009": {
+    "name": "Andreas Lindqvist",
+    "tax_domicile": "Sweden",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 32.94
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 32.9
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 31.58
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 31.56
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 31.61
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "EUR Call Deposit",
+      "value": 33.9,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "no market cause found",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "No Scheduled Calls",
+      "horizon": "Investment horizon: 20y"
+    },
+    "narrative": "Client maintains a 33.9% look-through exposure in EUR Call Deposit. Market catalyst: no market cause found. Mandate status: FLAGGED (Top exposure 33.85% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.0,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0010": {
+    "name": "Priya Nair Menon",
+    "tax_domicile": "Singapore",
+    "risk_profile": "Sustainable Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 8.09
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 8.17
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 8.07
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 8.14
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 8.18
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Singapore Government Securities due 2036",
+      "value": 21.6,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "no market cause found",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "No Scheduled Calls",
+      "horizon": "Investment horizon: 35y"
+    },
+    "narrative": "Client maintains a 21.6% look-through exposure in Singapore Government Securities due 2036. Market catalyst: no market cause found. Mandate status: FLAGGED (Top exposure 21.57% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.0,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0011": {
+    "name": "Tan Boon Huat",
+    "tax_domicile": "Singapore",
+    "risk_profile": "Conservative",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": 31.58,
+        "collateral": 48.87,
+        "drawn": 6.0,
+        "aum": 37.89
+      },
+      {
+        "date": "Feb 28",
+        "ltv": 31.18,
+        "collateral": 49.33,
+        "drawn": 6.0,
+        "aum": 37.66
+      },
+      {
+        "date": "Mar 31",
+        "ltv": 32.06,
+        "collateral": 48.43,
+        "drawn": 6.0,
+        "aum": 36.28
+      },
+      {
+        "date": "Jun 30",
+        "ltv": 32.16,
+        "collateral": 48.34,
+        "drawn": 6.0,
+        "aum": 35.94
+      },
+      {
+        "date": "Aug 26",
+        "ltv": 32.29,
+        "collateral": 47.77,
+        "drawn": 6.0,
+        "aum": 35.34
+      }
+    ],
+    "hasFacility": true,
+    "facilityType": "Property Backed Term Loan",
+    "triggerLtv": 80.0,
+    "concentration": {
+      "name": "Asia Real Estate Opportunity III",
+      "value": 20.4,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "no market cause found",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "SGD 2.8m",
+      "horizon": "Estate duty and legal costs on succession planning (2026-12)"
+    },
+    "narrative": "Lombard LTV is at 32.3% with a 47.7% cushion below the 80.0% trigger. Market catalyst: no market cause found. Mandate status: FLAGGED (Top exposure 20.42% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -8.6,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0012": {
+    "name": "Cheung Kwok Wing",
+    "tax_domicile": "Hong Kong SAR",
+    "risk_profile": "Income",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 30.13
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 30.53
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 29.07
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 28.26
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 28.03
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "US Treasury due 2045",
+      "value": 20.8,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-06-19 (High): US 10-year Treasury yield rises to about 4.46%, near its highest level in more than a year.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 1.3m",
+      "horizon": "Living expenses and medical care (2026-01)"
+    },
+    "narrative": "Client maintains a 20.8% look-through exposure in US Treasury due 2045. Grounded market catalyst: Event on 2026-06-19 (High): US 10-year Treasury yield rises to about 4.46%, near its highest level in more than a year.. Mandate status: FLAGGED (Top exposure 20.76% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.66,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0013": {
+    "name": "Zhang Meiling",
+    "tax_domicile": "Hong Kong SAR",
+    "risk_profile": "Growth",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": 23.24,
+        "collateral": 31.17,
+        "drawn": 4.2,
+        "aum": 31.17
+      },
+      {
+        "date": "Feb 28",
+        "ltv": 21.95,
+        "collateral": 33.04,
+        "drawn": 4.2,
+        "aum": 33.04
+      },
+      {
+        "date": "Mar 31",
+        "ltv": 22.73,
+        "collateral": 31.88,
+        "drawn": 4.2,
+        "aum": 31.88
+      },
+      {
+        "date": "Jun 30",
+        "ltv": 20.93,
+        "collateral": 35.91,
+        "drawn": 4.2,
+        "aum": 35.91
+      },
+      {
+        "date": "Aug 26",
+        "ltv": 20.39,
+        "collateral": 36.95,
+        "drawn": 4.2,
+        "aum": 36.95
+      }
+    ],
+    "hasFacility": true,
+    "facilityType": "Lombard Credit Facility",
+    "triggerLtv": 75.0,
+    "concentration": {
+      "name": "US Technology Leaders",
+      "value": 22.4,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "No Scheduled Calls",
+      "horizon": "Investment horizon: 22y"
+    },
+    "narrative": "Lombard LTV is at 20.4% with a 54.6% cushion below the 75.0% trigger. Grounded market catalyst: Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.. Mandate status: FLAGGED (Top exposure 22.43% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -7.85,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0014": {
+    "name": "Lau Chi Ming",
+    "tax_domicile": "Hong Kong SAR",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": 53.93,
+        "collateral": 219.54,
+        "drawn": 52.0,
+        "aum": 28.18
+      },
+      {
+        "date": "Feb 28",
+        "ltv": 53.53,
+        "collateral": 245.47,
+        "drawn": 52.0,
+        "aum": 31.47
+      },
+      {
+        "date": "Mar 31",
+        "ltv": 65.62,
+        "collateral": 222.79,
+        "drawn": 58.0,
+        "aum": 28.51
+      },
+      {
+        "date": "Jun 30",
+        "ltv": 67.96,
+        "collateral": 212.16,
+        "drawn": 58.0,
+        "aum": 27.13
+      },
+      {
+        "date": "Aug 26",
+        "ltv": 69.41,
+        "collateral": 206.88,
+        "drawn": 58.0,
+        "aum": 26.49
+      }
+    ],
+    "hasFacility": true,
+    "facilityType": "Lombard Credit Facility",
+    "triggerLtv": 70.0,
+    "concentration": {
+      "name": "Golden Harbour Properties",
+      "value": 22.4,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-02-28 (Severe): United States and Israel commence military operations against Iran.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "HKD 60.0m",
+      "horizon": "Mid-Levels redevelopment equity contribution (2026-11)"
+    },
+    "narrative": "Lombard LTV is at 69.4% with a 0.6% cushion below the 70.0% trigger. Grounded market catalyst: Event on 2026-02-28 (Severe): United States and Israel commence military operations against Iran.. Mandate status: FLAGGED (Top exposure 22.41% vs 12.0% cap). Framing note: Frame de-risking around ring-fencing capital for the Mid-Levels equity call rather than challenging his property conviction.",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -8.43,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0015": {
+    "name": "Kim Do-Yoon",
+    "tax_domicile": "Republic of Korea",
+    "risk_profile": "Dynamic Opportunistic",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 11.96
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 12.52
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.3
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.63
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.99
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "US Technology Leaders",
+      "value": 19.8,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "No Scheduled Calls",
+      "horizon": "Investment horizon: 25y"
+    },
+    "narrative": "Client maintains a 19.8% look-through exposure in US Technology Leaders. Grounded market catalyst: Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.. Mandate status: FLAGGED (Top exposure 19.76% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -6.49,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0016": {
+    "name": "Yamamoto Kenji",
+    "tax_domicile": "Japan",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.11
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.38
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.07
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.29
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 14.51
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Kanto Pharma",
+      "value": 20.1,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "no market cause found",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "JPY 18.0m",
+      "horizon": "Support for elderly parents in Japan (2026-01)"
+    },
+    "narrative": "Client maintains a 20.1% look-through exposure in Kanto Pharma. Market catalyst: no market cause found. Mandate status: FLAGGED (Top exposure 20.1% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.0,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0017": {
+    "name": "Fong Enterprises Family Office",
+    "tax_domicile": "Hong Kong SAR",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 85.5
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 87.49
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 86.49
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 87.34
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 87.9
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Meridian Tech Group",
+      "value": 13.7,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 900k",
+      "horizon": "G3 education programme (2026-09)"
+    },
+    "narrative": "Client maintains a 13.7% look-through exposure in Meridian Tech Group. Grounded market catalyst: Event on 2026-06-05 (High): Megacap technology complex briefly sheds around USD 2 trillion in market value on AI capital expenditure concerns before recovering later in the month.. Mandate status: FLAGGED (Top exposure 13.72% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.2,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0018": {
+    "name": "Elena Marchetti-Wong",
+    "tax_domicile": "Italy",
+    "risk_profile": "Balanced",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 23.54
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 24.21
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 23.14
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 22.75
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 22.6
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Global Luxury and Consumer Brands",
+      "value": 16.3,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "EUR 850k",
+      "horizon": "Italian succession planning and notarial costs (2027-06)"
+    },
+    "narrative": "Client maintains a 16.3% look-through exposure in Global Luxury and Consumer Brands. Grounded market catalyst: Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.. Mandate status: FLAGGED (Top exposure 16.28% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.0,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0019": {
+    "name": "Abdullah Al-Mansoori",
+    "tax_domicile": "United Arab Emirates",
+    "risk_profile": "Balanced Growth",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 25.58
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 26.2
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 27.47
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 31.38
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 32.21
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Global Developed Equity Index",
+      "value": 13.3,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 5.0m",
+      "horizon": "Seed capital for Singapore family office entity (2027-01)"
+    },
+    "narrative": "Client maintains a 13.3% look-through exposure in Global Developed Equity Index. Grounded market catalyst: Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.. Mandate status: FLAGGED (Top exposure 13.3% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -2.32,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  },
+  "CL-0020": {
+    "name": "Grace Adeyemi-Lim",
+    "tax_domicile": "Hong Kong SAR",
+    "risk_profile": "Growth",
+    "snapshots": [
+      {
+        "date": "Dec 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.06
+      },
+      {
+        "date": "Feb 28",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.53
+      },
+      {
+        "date": "Mar 31",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.15
+      },
+      {
+        "date": "Jun 30",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 18.76
+      },
+      {
+        "date": "Aug 26",
+        "ltv": null,
+        "collateral": null,
+        "drawn": null,
+        "aum": 19.06
+      }
+    ],
+    "hasFacility": false,
+    "facilityType": null,
+    "triggerLtv": null,
+    "concentration": {
+      "name": "Global Healthcare Equity",
+      "value": 17.4,
+      "limit": 12.0,
+      "status": "FLAGGED"
+    },
+    "eventDetails": "Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.",
+    "eventDate": "Aug 26",
+    "cashCall": {
+      "amount": "USD 3.6m",
+      "horizon": "Hong Kong property purchase (2027-04)"
+    },
+    "narrative": "Client maintains a 17.4% look-through exposure in Global Healthcare Equity. Grounded market catalyst: Event on 2026-03-12 (Severe): IEA characterises the conflict as the largest supply disruption in the history of the global oil market, with roughly 7.5% of world supply affected.. Mandate status: FLAGGED (Top exposure 17.43% vs 12.0% cap).",
+    "historicalReplay": {
+      "label": "HISTORICAL REPLAY ONLY",
+      "referenced_event": "2026-03-04: Strait of Hormuz closure (Brent surged past $120)",
+      "hypothetical_expected_move_pct": -5.7,
+      "disclaimer": "This position would be expected to move roughly X% if an already-logged shock recurred. Explicitly labelled as historical replay, never a forecast."
+    }
+  }
+}

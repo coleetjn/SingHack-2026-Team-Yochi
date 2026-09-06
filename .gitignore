@@ -3,3 +3,12 @@ __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 .venv/
+venv/
+env/
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.*
+!.env.example

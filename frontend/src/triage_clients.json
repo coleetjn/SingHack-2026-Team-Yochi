@@ -1,0 +1,222 @@
+[
+  {
+    "id": "CL-0002",
+    "name": "Ravi Chandrasekaran",
+    "status": "critical",
+    "urgency": 91,
+    "reason": "LTV 73.7% vs 75% trigger",
+    "hasFacility": true,
+    "creditScore": 95,
+    "liquidityScore": 100,
+    "horizonDays": "20y"
+  },
+  {
+    "id": "CL-0014",
+    "name": "Lau Chi Ming",
+    "status": "critical",
+    "urgency": 91,
+    "reason": "LTV 69.4% vs 70% trigger",
+    "hasFacility": true,
+    "creditScore": 100,
+    "liquidityScore": 95,
+    "horizonDays": "12y"
+  },
+  {
+    "id": "CL-0011",
+    "name": "Tan Boon Huat",
+    "status": "warning",
+    "urgency": 78,
+    "reason": "Urgent 2026: SGD 2.8m (Estate duty and legal costs )",
+    "hasFacility": true,
+    "creditScore": 65,
+    "liquidityScore": 90,
+    "horizonDays": "8y"
+  },
+  {
+    "id": "CL-0012",
+    "name": "Cheung Kwok Wing",
+    "status": "warning",
+    "urgency": 72,
+    "reason": "Unrealised loss drag (2100.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 85,
+    "liquidityScore": 55,
+    "horizonDays": "12y"
+  },
+  {
+    "id": "CL-0006",
+    "name": "Nguyen Thi Bao Tran",
+    "status": "warning",
+    "urgency": 72,
+    "reason": "Unrealised loss drag (550.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 75,
+    "liquidityScore": 65,
+    "horizonDays": "18y"
+  },
+  {
+    "id": "CL-0013",
+    "name": "Zhang Meiling",
+    "status": "warning",
+    "urgency": 64,
+    "reason": "Urgent Note: Client sees the technology drawdown...",
+    "hasFacility": true,
+    "creditScore": 35,
+    "liquidityScore": 80,
+    "horizonDays": "22y"
+  },
+  {
+    "id": "CL-0017",
+    "name": "Fong Enterprises Family Office",
+    "status": "warning",
+    "urgency": 61,
+    "reason": "Unrealised loss drag (78.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 20,
+    "liquidityScore": 85,
+    "horizonDays": "50y"
+  },
+  {
+    "id": "CL-0016",
+    "name": "Yamamoto Kenji",
+    "status": "warning",
+    "urgency": 61,
+    "reason": "Unrealised loss drag (5907.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 90,
+    "liquidityScore": 15,
+    "horizonDays": "20y"
+  },
+  {
+    "id": "CL-0004",
+    "name": "Chalermchai Suphanburi",
+    "status": "warning",
+    "urgency": 53,
+    "reason": "Unrealised loss drag (1709.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 80,
+    "liquidityScore": 45,
+    "horizonDays": "18y"
+  },
+  {
+    "id": "CL-0019",
+    "name": "Abdullah Al-Mansoori",
+    "status": "warning",
+    "urgency": 53,
+    "reason": "Unrealised loss drag (161.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 50,
+    "liquidityScore": 75,
+    "horizonDays": "25y"
+  },
+  {
+    "id": "CL-0003",
+    "name": "Margarethe Voss-Brenner",
+    "status": "warning",
+    "urgency": 52,
+    "reason": "Unrealised loss drag (102.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 40,
+    "liquidityScore": 40,
+    "horizonDays": "15y"
+  },
+  {
+    "id": "CL-0005",
+    "name": "Aishah binti Rahman",
+    "status": "stable",
+    "urgency": 49,
+    "reason": "Unrealised loss drag (221.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 55,
+    "liquidityScore": 15,
+    "horizonDays": "20y"
+  },
+  {
+    "id": "CL-0008",
+    "name": "Chen Wei Ling",
+    "status": "stable",
+    "urgency": 40,
+    "reason": "Unrealised loss drag (380.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 70,
+    "liquidityScore": 15,
+    "horizonDays": "15y"
+  },
+  {
+    "id": "CL-0007",
+    "name": "Alistair Pemberton-Hale",
+    "status": "stable",
+    "urgency": 33,
+    "reason": "Unrealised loss drag (97.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 30,
+    "liquidityScore": 35,
+    "horizonDays": "12y"
+  },
+  {
+    "id": "CL-0020",
+    "name": "Grace Adeyemi-Lim",
+    "status": "stable",
+    "urgency": 32,
+    "reason": "Unrealised loss drag (26.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 10,
+    "liquidityScore": 50,
+    "horizonDays": "28y"
+  },
+  {
+    "id": "CL-0009",
+    "name": "Andreas Lindqvist",
+    "status": "stable",
+    "urgency": 32,
+    "reason": "Unrealised loss drag (84.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 25,
+    "liquidityScore": 60,
+    "horizonDays": "20y"
+  },
+  {
+    "id": "CL-0018",
+    "name": "Elena Marchetti-Wong",
+    "status": "stable",
+    "urgency": 32,
+    "reason": "Unrealised loss drag (156.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 45,
+    "liquidityScore": 15,
+    "horizonDays": "22y"
+  },
+  {
+    "id": "CL-0010",
+    "name": "Priya Nair Menon",
+    "status": "stable",
+    "urgency": 28,
+    "reason": "Unrealised loss drag (235.0% AUM)",
+    "hasFacility": false,
+    "creditScore": 60,
+    "liquidityScore": 15,
+    "horizonDays": "35y"
+  },
+  {
+    "id": "CL-0015",
+    "name": "Kim Do-Yoon",
+    "status": "stable",
+    "urgency": 28,
+    "reason": "Unspecified",
+    "hasFacility": false,
+    "creditScore": 5,
+    "liquidityScore": 70,
+    "horizonDays": "25y"
+  },
+  {
+    "id": "CL-0001",
+    "name": "Hartono Wijaya Kusuma",
+    "status": "stable",
+    "urgency": 27,
+    "reason": "Next Year: SGD 9.0m (Deposit on Singapore residen)",
+    "hasFacility": true,
+    "creditScore": 15,
+    "liquidityScore": 30,
+    "horizonDays": "25y"
+  }
+]

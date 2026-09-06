@@ -1,0 +1,1878 @@
+{
+  "metrics": {
+    "CL-0002": {
+      "client_id": "CL-0002",
+      "facility_id": "CF-0001",
+      "facility_type": "Lombard Credit Facility",
+      "ltv_current": 73.71,
+      "margin_call_ltv": 75.0,
+      "headroom_pct": 1.29,
+      "market_drop_to_trigger_pct": 1.72,
+      "note": "Directional estimate, not an exact figure"
+    },
+    "CL-0014": {
+      "client_id": "CL-0014",
+      "facility_id": "CF-0002",
+      "facility_type": "Lombard Credit Facility",
+      "ltv_current": 69.41,
+      "margin_call_ltv": 70.0,
+      "headroom_pct": 0.59,
+      "market_drop_to_trigger_pct": 0.84,
+      "note": "Directional estimate, not an exact figure"
+    },
+    "CL-0013": {
+      "client_id": "CL-0013",
+      "facility_id": "CF-0003",
+      "facility_type": "Lombard Credit Facility",
+      "ltv_current": 20.39,
+      "margin_call_ltv": 75.0,
+      "headroom_pct": 54.61,
+      "market_drop_to_trigger_pct": 72.81,
+      "note": "Directional estimate, not an exact figure"
+    },
+    "CL-0011": {
+      "client_id": "CL-0011",
+      "facility_id": "CF-0004",
+      "facility_type": "Property Backed Term Loan",
+      "ltv_current": 32.29,
+      "margin_call_ltv": 80.0,
+      "headroom_pct": 47.71,
+      "market_drop_to_trigger_pct": 59.64,
+      "note": "Directional estimate, not an exact figure"
+    },
+    "CL-0001": {
+      "client_id": "CL-0001",
+      "facility_id": "CF-0005",
+      "facility_type": "Lombard Credit Facility",
+      "ltv_current": 59.15,
+      "margin_call_ltv": 70.0,
+      "headroom_pct": 10.85,
+      "market_drop_to_trigger_pct": 15.5,
+      "note": "Directional estimate, not an exact figure"
+    }
+  },
+  "threads": [
+    {
+      "client_id": "CL-0002",
+      "driver": "Aranya Technologies",
+      "instrument_ids": [
+        "SYN-AL-0308"
+      ],
+      "combined_market_value_usd": 31920000.0,
+      "pct_of_client_aum": 68.35
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "Bara Nusantara Energy",
+      "instrument_ids": [
+        "SYN-ST-0101"
+      ],
+      "combined_market_value_usd": 19287976.54,
+      "pct_of_client_aum": 41.42
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Meridian Tech Group",
+      "instrument_ids": [
+        "SYN-AL-0301"
+      ],
+      "combined_market_value_usd": 12064000.0,
+      "pct_of_client_aum": 13.72
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "EUR Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0604"
+      ],
+      "combined_market_value_usd": 10701600.0,
+      "pct_of_client_aum": 33.85
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Orchard Private Credit II",
+      "instrument_ids": [
+        "SYN-AL-0302"
+      ],
+      "combined_market_value_usd": 9557000.0,
+      "pct_of_client_aum": 10.87
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 9520000.0,
+      "pct_of_client_aum": 10.83
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "US Technology Leaders",
+      "instrument_ids": [
+        "SYN-EQ-0003"
+      ],
+      "combined_market_value_usd": 8289400.0,
+      "pct_of_client_aum": 22.43
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "Asia Real Estate Opportunity III",
+      "instrument_ids": [
+        "SYN-AL-0305"
+      ],
+      "combined_market_value_usd": 7215976.33,
+      "pct_of_client_aum": 20.42
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 7140000.0,
+      "pct_of_client_aum": 15.33
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "Meridian Tech Group",
+      "instrument_ids": [
+        "SYN-ST-0102",
+        "SYN-AL-0301"
+      ],
+      "combined_market_value_usd": 6898400.0,
+      "pct_of_client_aum": 18.67
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "Direct Property - Sentosa Cove Residence",
+      "instrument_ids": [
+        "SYN-AL-0306"
+      ],
+      "combined_market_value_usd": 6471893.49,
+      "pct_of_client_aum": 18.32
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "US Large Cap Core",
+      "instrument_ids": [
+        "SYN-EQ-0002"
+      ],
+      "combined_market_value_usd": 5977600.0,
+      "pct_of_client_aum": 6.8
+    },
+    {
+      "client_id": "CL-0014",
+      "driver": "Golden Harbour Properties",
+      "instrument_ids": [
+        "SYN-FI-0207",
+        "SYN-ST-0106"
+      ],
+      "combined_market_value_usd": 5935528.81,
+      "pct_of_client_aum": 22.41
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 5838000.0,
+      "pct_of_client_aum": 6.64
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "US Treasury due 2045",
+      "instrument_ids": [
+        "SYN-FI-0201"
+      ],
+      "combined_market_value_usd": 5820000.0,
+      "pct_of_client_aum": 20.76
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "Global Luxury and Consumer Brands",
+      "instrument_ids": [
+        "SYN-EQ-0010"
+      ],
+      "combined_market_value_usd": 5780174.4,
+      "pct_of_client_aum": 26.06
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "Helios Cloud Systems",
+      "instrument_ids": [
+        "SYN-ST-0103"
+      ],
+      "combined_market_value_usd": 5691400.0,
+      "pct_of_client_aum": 15.4
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Tanjong Global Macro",
+      "instrument_ids": [
+        "SYN-AL-0303"
+      ],
+      "combined_market_value_usd": 5584800.0,
+      "pct_of_client_aum": 6.35
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "Nordvind Industrial",
+      "instrument_ids": [
+        "SYN-ST-0107"
+      ],
+      "combined_market_value_usd": 5434228.8,
+      "pct_of_client_aum": 17.19
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 5351500.0,
+      "pct_of_client_aum": 16.0
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "US Treasury due 2045",
+      "instrument_ids": [
+        "SYN-FI-0201"
+      ],
+      "combined_market_value_usd": 5238000.0,
+      "pct_of_client_aum": 15.66
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 5236000.0,
+      "pct_of_client_aum": 13.08
+    },
+    {
+      "client_id": "CL-0014",
+      "driver": "Direct Property - Mid-Levels Apartment",
+      "instrument_ids": [
+        "SYN-AL-0307"
+      ],
+      "combined_market_value_usd": 5185659.41,
+      "pct_of_client_aum": 19.58
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "US Treasury due 2028",
+      "instrument_ids": [
+        "SYN-FI-0202"
+      ],
+      "combined_market_value_usd": 4945000.0,
+      "pct_of_client_aum": 12.36
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "Singapore Government Securities due 2036",
+      "instrument_ids": [
+        "SYN-FI-0211"
+      ],
+      "combined_market_value_usd": 4752958.58,
+      "pct_of_client_aum": 13.45
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Asia Investment Grade Credit",
+      "instrument_ids": [
+        "SYN-FI-0204"
+      ],
+      "combined_market_value_usd": 4695000.0,
+      "pct_of_client_aum": 14.03
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 4670400.0,
+      "pct_of_client_aum": 16.66
+    },
+    {
+      "client_id": "CL-0014",
+      "driver": "Pacific Rim Bank",
+      "instrument_ids": [
+        "SYN-FI-0206"
+      ],
+      "combined_market_value_usd": 4653000.0,
+      "pct_of_client_aum": 17.57
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "Singapore REIT ome",
+      "instrument_ids": [
+        "SYN-EQ-0024"
+      ],
+      "combined_market_value_usd": 4482988.17,
+      "pct_of_client_aum": 12.69
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "US Treasury due 2028",
+      "instrument_ids": [
+        "SYN-FI-0202"
+      ],
+      "combined_market_value_usd": 4450500.0,
+      "pct_of_client_aum": 5.06
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 4378500.0,
+      "pct_of_client_aum": 10.94
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 4284000.0,
+      "pct_of_client_aum": 13.3
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "Asia Investment Grade Credit",
+      "instrument_ids": [
+        "SYN-FI-0204"
+      ],
+      "combined_market_value_usd": 4225500.0,
+      "pct_of_client_aum": 9.07
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Asia Investment Grade Credit",
+      "instrument_ids": [
+        "SYN-FI-0204"
+      ],
+      "combined_market_value_usd": 4225500.0,
+      "pct_of_client_aum": 15.08
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "XAU spot, allocated, Singapore vault",
+      "instrument_ids": [
+        "SYN-CM-0401"
+      ],
+      "combined_market_value_usd": 4160340.0,
+      "pct_of_client_aum": 10.4
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Worst-of basket: Pacific Orient Shipping / Global Energy Majors ADR / Bara Nusantara Energy",
+      "instrument_ids": [
+        "SYN-SP-0505"
+      ],
+      "combined_market_value_usd": 4156209.99,
+      "pct_of_client_aum": 12.9
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "Nordvind Industrial",
+      "instrument_ids": [
+        "SYN-ST-0107"
+      ],
+      "combined_market_value_usd": 4075671.6,
+      "pct_of_client_aum": 18.37
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "Singapore Government Securities due 2036",
+      "instrument_ids": [
+        "SYN-FI-0211"
+      ],
+      "combined_market_value_usd": 4073964.5,
+      "pct_of_client_aum": 22.54
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "European Equity",
+      "instrument_ids": [
+        "SYN-EQ-0004"
+      ],
+      "combined_market_value_usd": 4029480.0,
+      "pct_of_client_aum": 4.58
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 3972000.0,
+      "pct_of_client_aum": 8.53
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 3972000.0,
+      "pct_of_client_aum": 4.52
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 3892000.0,
+      "pct_of_client_aum": 11.01
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Pacific Rim Bank",
+      "instrument_ids": [
+        "SYN-FI-0206"
+      ],
+      "combined_market_value_usd": 3807000.0,
+      "pct_of_client_aum": 11.38
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "US Large Cap Core",
+      "instrument_ids": [
+        "SYN-EQ-0002"
+      ],
+      "combined_market_value_usd": 3736000.0,
+      "pct_of_client_aum": 9.34
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "US Large Cap Core",
+      "instrument_ids": [
+        "SYN-EQ-0002"
+      ],
+      "combined_market_value_usd": 3736000.0,
+      "pct_of_client_aum": 10.11
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "Global Luxury and Consumer Brands",
+      "instrument_ids": [
+        "SYN-EQ-0010"
+      ],
+      "combined_market_value_usd": 3678292.8,
+      "pct_of_client_aum": 16.28
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Pacific Orient Shipping",
+      "instrument_ids": [
+        "SYN-ST-0104"
+      ],
+      "combined_market_value_usd": 3676056.34,
+      "pct_of_client_aum": 11.41
+    },
+    {
+      "client_id": "CL-0014",
+      "driver": "Greater China Equity",
+      "instrument_ids": [
+        "SYN-EQ-0021"
+      ],
+      "combined_market_value_usd": 3667093.47,
+      "pct_of_client_aum": 13.84
+    },
+    {
+      "client_id": "CL-0014",
+      "driver": "Asia High Yield Bond",
+      "instrument_ids": [
+        "SYN-FI-0205"
+      ],
+      "combined_market_value_usd": 3645000.0,
+      "pct_of_client_aum": 13.76
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "European Equity",
+      "instrument_ids": [
+        "SYN-EQ-0004"
+      ],
+      "combined_market_value_usd": 3626532.0,
+      "pct_of_client_aum": 16.35
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Harborline Long Short Equity",
+      "instrument_ids": [
+        "SYN-AL-0304"
+      ],
+      "combined_market_value_usd": 3567200.0,
+      "pct_of_client_aum": 4.06
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "US Technology Leaders",
+      "instrument_ids": [
+        "SYN-EQ-0003"
+      ],
+      "combined_market_value_usd": 3552600.0,
+      "pct_of_client_aum": 7.61
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "US Technology Leaders",
+      "instrument_ids": [
+        "SYN-EQ-0003"
+      ],
+      "combined_market_value_usd": 3552600.0,
+      "pct_of_client_aum": 4.04
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601",
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 3500000.0,
+      "pct_of_client_aum": 3.98
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "XAU spot",
+      "instrument_ids": [
+        "SYN-CM-0402"
+      ],
+      "combined_market_value_usd": 3416800.0,
+      "pct_of_client_aum": 8.54
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "Global Healthcare Equity",
+      "instrument_ids": [
+        "SYN-EQ-0006"
+      ],
+      "combined_market_value_usd": 3322000.0,
+      "pct_of_client_aum": 17.43
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "Greater China Equity",
+      "instrument_ids": [
+        "SYN-EQ-0021"
+      ],
+      "combined_market_value_usd": 3300384.12,
+      "pct_of_client_aum": 8.93
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Asia Investment Grade Credit",
+      "instrument_ids": [
+        "SYN-FI-0204"
+      ],
+      "combined_market_value_usd": 3286500.0,
+      "pct_of_client_aum": 3.74
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Singapore REIT ome",
+      "instrument_ids": [
+        "SYN-EQ-0024"
+      ],
+      "combined_market_value_usd": 3260355.03,
+      "pct_of_client_aum": 9.75
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "EUR Investment Grade Bond",
+      "instrument_ids": [
+        "SYN-FI-0209"
+      ],
+      "combined_market_value_usd": 3246297.6,
+      "pct_of_client_aum": 14.37
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "European Equity",
+      "instrument_ids": [
+        "SYN-EQ-0004"
+      ],
+      "combined_market_value_usd": 3223584.0,
+      "pct_of_client_aum": 10.2
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "EUR Investment Grade Bond",
+      "instrument_ids": [
+        "SYN-FI-0209"
+      ],
+      "combined_market_value_usd": 3043404.0,
+      "pct_of_client_aum": 9.63
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "European Equity",
+      "instrument_ids": [
+        "SYN-EQ-0004"
+      ],
+      "combined_market_value_usd": 3022110.0,
+      "pct_of_client_aum": 13.37
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "Orchard Private Credit II",
+      "instrument_ids": [
+        "SYN-AL-0302"
+      ],
+      "combined_market_value_usd": 3018000.0,
+      "pct_of_client_aum": 8.54
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "XAU spot",
+      "instrument_ids": [
+        "SYN-CM-0402",
+        "SYN-CM-0402"
+      ],
+      "combined_market_value_usd": 2989700.0,
+      "pct_of_client_aum": 3.4
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "US Large Cap Core",
+      "instrument_ids": [
+        "SYN-EQ-0002"
+      ],
+      "combined_market_value_usd": 2988800.0,
+      "pct_of_client_aum": 9.28
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "US Technology Leaders",
+      "instrument_ids": [
+        "SYN-EQ-0003"
+      ],
+      "combined_market_value_usd": 2960500.0,
+      "pct_of_client_aum": 19.76
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 2919000.0,
+      "pct_of_client_aum": 9.06
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "Kanto Pharma",
+      "instrument_ids": [
+        "SYN-ST-0108"
+      ],
+      "combined_market_value_usd": 2916729.56,
+      "pct_of_client_aum": 20.1
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "CHF Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0605"
+      ],
+      "combined_market_value_usd": 2888086.64,
+      "pct_of_client_aum": 9.14
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Global Energy Majors Equity",
+      "instrument_ids": [
+        "SYN-EQ-0008"
+      ],
+      "combined_market_value_usd": 2878800.0,
+      "pct_of_client_aum": 8.94
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Asia Pacific Shipping and Logistics",
+      "instrument_ids": [
+        "SYN-EQ-0025"
+      ],
+      "combined_market_value_usd": 2862200.0,
+      "pct_of_client_aum": 8.88
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 2856000.0,
+      "pct_of_client_aum": 14.72
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 2856000.0,
+      "pct_of_client_aum": 12.64
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "European Equity",
+      "instrument_ids": [
+        "SYN-EQ-0004"
+      ],
+      "combined_market_value_usd": 2820636.0,
+      "pct_of_client_aum": 7.05
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Global Listed Infrastructure",
+      "instrument_ids": [
+        "SYN-EQ-0009"
+      ],
+      "combined_market_value_usd": 2796000.0,
+      "pct_of_client_aum": 8.36
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "Tanjong Global Macro",
+      "instrument_ids": [
+        "SYN-AL-0303"
+      ],
+      "combined_market_value_usd": 2792400.0,
+      "pct_of_client_aum": 6.98
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "Singapore Government Securities due 2036",
+      "instrument_ids": [
+        "SYN-FI-0211"
+      ],
+      "combined_market_value_usd": 2715976.33,
+      "pct_of_client_aum": 14.0
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "US Technology Leaders",
+      "instrument_ids": [
+        "SYN-EQ-0003"
+      ],
+      "combined_market_value_usd": 2664450.0,
+      "pct_of_client_aum": 13.98
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "Single underlying: Helios Cloud Systems",
+      "instrument_ids": [
+        "SYN-SP-0502"
+      ],
+      "combined_market_value_usd": 2620000.0,
+      "pct_of_client_aum": 7.09
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "Global Defence and Aerospace Equity",
+      "instrument_ids": [
+        "SYN-EQ-0007"
+      ],
+      "combined_market_value_usd": 2616800.0,
+      "pct_of_client_aum": 6.54
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "ASEAN Equity",
+      "instrument_ids": [
+        "SYN-EQ-0023"
+      ],
+      "combined_market_value_usd": 2559541.42,
+      "pct_of_client_aum": 14.16
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Emerging Market Sovereign Bond",
+      "instrument_ids": [
+        "SYN-FI-0210"
+      ],
+      "combined_market_value_usd": 2556000.0,
+      "pct_of_client_aum": 7.64
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 2542500.0,
+      "pct_of_client_aum": 5.46
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 2542500.0,
+      "pct_of_client_aum": 2.89
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Pacific Rim Bank",
+      "instrument_ids": [
+        "SYN-FI-0206"
+      ],
+      "combined_market_value_usd": 2538000.0,
+      "pct_of_client_aum": 9.06
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Global Infrastructure Debt",
+      "instrument_ids": [
+        "SYN-AL-0309"
+      ],
+      "combined_market_value_usd": 2505000.0,
+      "pct_of_client_aum": 2.85
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "Global Healthcare Equity",
+      "instrument_ids": [
+        "SYN-EQ-0006"
+      ],
+      "combined_market_value_usd": 2491500.0,
+      "pct_of_client_aum": 12.84
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 2482500.0,
+      "pct_of_client_aum": 6.72
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "Singapore REIT ome",
+      "instrument_ids": [
+        "SYN-EQ-0024"
+      ],
+      "combined_market_value_usd": 2445266.27,
+      "pct_of_client_aum": 13.53
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 2432500.0,
+      "pct_of_client_aum": 12.54
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "XAU spot, allocated, Singapore vault",
+      "instrument_ids": [
+        "SYN-CM-0401"
+      ],
+      "combined_market_value_usd": 2403752.0,
+      "pct_of_client_aum": 10.64
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 2400000.0,
+      "pct_of_client_aum": 7.45
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 2380000.0,
+      "pct_of_client_aum": 12.49
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "US Technology Leaders",
+      "instrument_ids": [
+        "SYN-EQ-0003"
+      ],
+      "combined_market_value_usd": 2368400.0,
+      "pct_of_client_aum": 5.09
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "US Technology Leaders",
+      "instrument_ids": [
+        "SYN-EQ-0003"
+      ],
+      "combined_market_value_usd": 2368400.0,
+      "pct_of_client_aum": 10.68
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "SGD Fixed Deposit 3M",
+      "instrument_ids": [
+        "SYN-CA-0602"
+      ],
+      "combined_market_value_usd": 2366863.91,
+      "pct_of_client_aum": 6.7
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0005"
+      ],
+      "combined_market_value_usd": 2275471.7,
+      "pct_of_client_aum": 15.68
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "Global Inflation-Linked Bond",
+      "instrument_ids": [
+        "SYN-FI-0212"
+      ],
+      "combined_market_value_usd": 2274800.0,
+      "pct_of_client_aum": 5.68
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "Verdant Health Group",
+      "instrument_ids": [
+        "SYN-ST-0109"
+      ],
+      "combined_market_value_usd": 2274408.28,
+      "pct_of_client_aum": 11.93
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "Meridian Tech Group",
+      "instrument_ids": [
+        "SYN-AL-0301"
+      ],
+      "combined_market_value_usd": 2262000.0,
+      "pct_of_client_aum": 7.16
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "Meridian Tech Group",
+      "instrument_ids": [
+        "SYN-ST-0102"
+      ],
+      "combined_market_value_usd": 2242800.0,
+      "pct_of_client_aum": 4.8
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "Global Energy Majors Equity",
+      "instrument_ids": [
+        "SYN-EQ-0008"
+      ],
+      "combined_market_value_usd": 2159100.0,
+      "pct_of_client_aum": 11.13
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 2142000.0,
+      "pct_of_client_aum": 14.76
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Emerging Market Sovereign Bond",
+      "instrument_ids": [
+        "SYN-FI-0210"
+      ],
+      "combined_market_value_usd": 2130000.0,
+      "pct_of_client_aum": 6.61
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "Asia Real Estate Opportunity III",
+      "instrument_ids": [
+        "SYN-AL-0305"
+      ],
+      "combined_market_value_usd": 2084615.38,
+      "pct_of_client_aum": 11.53
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "EUR Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0604"
+      ],
+      "combined_market_value_usd": 2074800.0,
+      "pct_of_client_aum": 9.18
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "SGD Fixed Deposit 3M",
+      "instrument_ids": [
+        "SYN-CA-0602"
+      ],
+      "combined_market_value_usd": 2071005.92,
+      "pct_of_client_aum": 11.46
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "Helios Cloud Systems",
+      "instrument_ids": [
+        "SYN-ST-0103"
+      ],
+      "combined_market_value_usd": 2069600.0,
+      "pct_of_client_aum": 4.43
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "Underlying: XAU spot, capital protection at maturity, participation",
+      "instrument_ids": [
+        "SYN-SP-0504"
+      ],
+      "combined_market_value_usd": 2042000.0,
+      "pct_of_client_aum": 5.1
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "Singapore Government Securities due 2036",
+      "instrument_ids": [
+        "SYN-FI-0211"
+      ],
+      "combined_market_value_usd": 2036982.25,
+      "pct_of_client_aum": 17.04
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 2034000.0,
+      "pct_of_client_aum": 5.5
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "EUR Investment Grade Bond",
+      "instrument_ids": [
+        "SYN-FI-0209"
+      ],
+      "combined_market_value_usd": 2028936.0,
+      "pct_of_client_aum": 9.15
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 1986000.0,
+      "pct_of_client_aum": 6.16
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "Sunrise Palm Resources",
+      "instrument_ids": [
+        "SYN-ST-0105"
+      ],
+      "combined_market_value_usd": 1972633.14,
+      "pct_of_client_aum": 10.17
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "Global Listed Infrastructure",
+      "instrument_ids": [
+        "SYN-EQ-0009"
+      ],
+      "combined_market_value_usd": 1957200.0,
+      "pct_of_client_aum": 10.09
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 1946000.0,
+      "pct_of_client_aum": 13.41
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 1946000.0,
+      "pct_of_client_aum": 8.61
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "Tanjong Global Macro",
+      "instrument_ids": [
+        "SYN-AL-0303"
+      ],
+      "combined_market_value_usd": 1933200.0,
+      "pct_of_client_aum": 4.15
+    },
+    {
+      "client_id": "CL-0019",
+      "driver": "Tanjong Global Macro",
+      "instrument_ids": [
+        "SYN-AL-0303"
+      ],
+      "combined_market_value_usd": 1933200.0,
+      "pct_of_client_aum": 6.0
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Worst-of basket: Global Energy Majors ADR / Gulf Marine Services / Helios Cloud Systems",
+      "instrument_ids": [
+        "SYN-SP-0501"
+      ],
+      "combined_market_value_usd": 1924200.0,
+      "pct_of_client_aum": 12.84
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1904000.0,
+      "pct_of_client_aum": 5.69
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1904000.0,
+      "pct_of_client_aum": 15.93
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1904000.0,
+      "pct_of_client_aum": 6.02
+    },
+    {
+      "client_id": "CL-0013",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 1900000.0,
+      "pct_of_client_aum": 5.14
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "USD Money Market",
+      "instrument_ids": [
+        "SYN-CA-0607"
+      ],
+      "combined_market_value_usd": 1893600.0,
+      "pct_of_client_aum": 2.15
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "India Equity",
+      "instrument_ids": [
+        "SYN-EQ-0022"
+      ],
+      "combined_market_value_usd": 1882000.0,
+      "pct_of_client_aum": 9.87
+    },
+    {
+      "client_id": "CL-0014",
+      "driver": "Daily accumulation at strike HKD 17.20, knock-out HKD 19.80, double-up below strike",
+      "instrument_ids": [
+        "SYN-SP-0503"
+      ],
+      "combined_market_value_usd": 1866197.18,
+      "pct_of_client_aum": 7.05
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "Greater China Equity",
+      "instrument_ids": [
+        "SYN-EQ-0021"
+      ],
+      "combined_market_value_usd": 1833546.73,
+      "pct_of_client_aum": 8.11
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 1830600.0,
+      "pct_of_client_aum": 15.32
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "Global Infrastructure Debt",
+      "instrument_ids": [
+        "SYN-AL-0309"
+      ],
+      "combined_market_value_usd": 1803600.0,
+      "pct_of_client_aum": 5.39
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 1787400.0,
+      "pct_of_client_aum": 9.38
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Harborline Long Short Equity",
+      "instrument_ids": [
+        "SYN-AL-0304"
+      ],
+      "combined_market_value_usd": 1783600.0,
+      "pct_of_client_aum": 11.9
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "Singapore Government Securities due 2036",
+      "instrument_ids": [
+        "SYN-FI-0211"
+      ],
+      "combined_market_value_usd": 1765384.62,
+      "pct_of_client_aum": 21.57
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "XAU spot",
+      "instrument_ids": [
+        "SYN-CM-0402"
+      ],
+      "combined_market_value_usd": 1708400.0,
+      "pct_of_client_aum": 3.67
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "ASEAN Equity",
+      "instrument_ids": [
+        "SYN-EQ-0023"
+      ],
+      "combined_market_value_usd": 1706360.95,
+      "pct_of_client_aum": 8.8
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "ASEAN Equity",
+      "instrument_ids": [
+        "SYN-EQ-0023"
+      ],
+      "combined_market_value_usd": 1706360.95,
+      "pct_of_client_aum": 4.83
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "India Equity",
+      "instrument_ids": [
+        "SYN-EQ-0022"
+      ],
+      "combined_market_value_usd": 1693800.0,
+      "pct_of_client_aum": 3.63
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Global Listed Infrastructure",
+      "instrument_ids": [
+        "SYN-EQ-0009"
+      ],
+      "combined_market_value_usd": 1677600.0,
+      "pct_of_client_aum": 5.99
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1666000.0,
+      "pct_of_client_aum": 5.94
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "Worst-of basket: Pacific Orient Shipping / Global Energy Majors ADR / Bara Nusantara Energy",
+      "instrument_ids": [
+        "SYN-SP-0505"
+      ],
+      "combined_market_value_usd": 1662483.99,
+      "pct_of_client_aum": 3.57
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "Global Healthcare Equity",
+      "instrument_ids": [
+        "SYN-EQ-0006"
+      ],
+      "combined_market_value_usd": 1661000.0,
+      "pct_of_client_aum": 1.89
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Pacific Orient Shipping",
+      "instrument_ids": [
+        "SYN-ST-0104"
+      ],
+      "combined_market_value_usd": 1633802.82,
+      "pct_of_client_aum": 5.83
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "SGD Fixed Deposit 3M",
+      "instrument_ids": [
+        "SYN-CA-0602"
+      ],
+      "combined_market_value_usd": 1627218.93,
+      "pct_of_client_aum": 13.61
+    },
+    {
+      "client_id": "CL-0007",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 1600000.0,
+      "pct_of_client_aum": 4.0
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "Single underlying: Helios Cloud Systems",
+      "instrument_ids": [
+        "SYN-SP-0502"
+      ],
+      "combined_market_value_usd": 1572000.0,
+      "pct_of_client_aum": 3.37
+    },
+    {
+      "client_id": "CL-0014",
+      "driver": "HKD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0603"
+      ],
+      "combined_market_value_usd": 1536491.68,
+      "pct_of_client_aum": 5.8
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 1525500.0,
+      "pct_of_client_aum": 4.83
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 1525500.0,
+      "pct_of_client_aum": 8.0
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Tanjong Global Macro",
+      "instrument_ids": [
+        "SYN-AL-0303"
+      ],
+      "combined_market_value_usd": 1503600.0,
+      "pct_of_client_aum": 10.03
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Meridian Tech Group",
+      "instrument_ids": [
+        "SYN-ST-0102"
+      ],
+      "combined_market_value_usd": 1495200.0,
+      "pct_of_client_aum": 9.98
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "US Large Cap Core",
+      "instrument_ids": [
+        "SYN-EQ-0002"
+      ],
+      "combined_market_value_usd": 1494400.0,
+      "pct_of_client_aum": 10.3
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1428000.0,
+      "pct_of_client_aum": 3.06
+    },
+    {
+      "client_id": "CL-0011",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1428000.0,
+      "pct_of_client_aum": 4.04
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Golden Harbour Properties",
+      "instrument_ids": [
+        "SYN-FI-0207"
+      ],
+      "combined_market_value_usd": 1420000.0,
+      "pct_of_client_aum": 5.07
+    },
+    {
+      "client_id": "CL-0017",
+      "driver": "India Equity",
+      "instrument_ids": [
+        "SYN-EQ-0022"
+      ],
+      "combined_market_value_usd": 1411500.0,
+      "pct_of_client_aum": 1.61
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "Orchard Private Credit II",
+      "instrument_ids": [
+        "SYN-AL-0302"
+      ],
+      "combined_market_value_usd": 1408400.0,
+      "pct_of_client_aum": 7.79
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "Harborline Long Short Equity",
+      "instrument_ids": [
+        "SYN-AL-0304"
+      ],
+      "combined_market_value_usd": 1401400.0,
+      "pct_of_client_aum": 6.32
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 1390200.0,
+      "pct_of_client_aum": 9.28
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "SGD Fixed Deposit 3M",
+      "instrument_ids": [
+        "SYN-CA-0602"
+      ],
+      "combined_market_value_usd": 1331360.95,
+      "pct_of_client_aum": 2.86
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "ASEAN Equity",
+      "instrument_ids": [
+        "SYN-EQ-0023"
+      ],
+      "combined_market_value_usd": 1251331.36,
+      "pct_of_client_aum": 10.47
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "Global Inflation-Linked Bond",
+      "instrument_ids": [
+        "SYN-FI-0212"
+      ],
+      "combined_market_value_usd": 1240800.0,
+      "pct_of_client_aum": 15.16
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Singapore REIT ome",
+      "instrument_ids": [
+        "SYN-EQ-0024"
+      ],
+      "combined_market_value_usd": 1222633.14,
+      "pct_of_client_aum": 4.36
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 1220400.0,
+      "pct_of_client_aum": 2.61
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 1220400.0,
+      "pct_of_client_aum": 8.41
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "Meridian Tech Group",
+      "instrument_ids": [
+        "SYN-AL-0301"
+      ],
+      "combined_market_value_usd": 1206400.0,
+      "pct_of_client_aum": 6.33
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "Global Infrastructure Debt",
+      "instrument_ids": [
+        "SYN-AL-0309"
+      ],
+      "combined_market_value_usd": 1202400.0,
+      "pct_of_client_aum": 4.29
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 1200000.0,
+      "pct_of_client_aum": 3.59
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "Worst-of basket: three Asian banking majors, autocall observation quarterly",
+      "instrument_ids": [
+        "SYN-SP-0506"
+      ],
+      "combined_market_value_usd": 1195200.0,
+      "pct_of_client_aum": 5.39
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 1191600.0,
+      "pct_of_client_aum": 6.59
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1190000.0,
+      "pct_of_client_aum": 14.54
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 1167600.0,
+      "pct_of_client_aum": 6.46
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "Global Investment Grade orate Bond",
+      "instrument_ids": [
+        "SYN-FI-0203"
+      ],
+      "combined_market_value_usd": 1167600.0,
+      "pct_of_client_aum": 6.13
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "HKD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0603"
+      ],
+      "combined_market_value_usd": 1152368.76,
+      "pct_of_client_aum": 4.11
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0005"
+      ],
+      "combined_market_value_usd": 1137735.85,
+      "pct_of_client_aum": 7.59
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "JPY Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0606"
+      ],
+      "combined_market_value_usd": 1132075.47,
+      "pct_of_client_aum": 7.8
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Broad Commodity Index",
+      "instrument_ids": [
+        "SYN-CM-0403"
+      ],
+      "combined_market_value_usd": 1130400.0,
+      "pct_of_client_aum": 7.54
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "Global Listed Infrastructure",
+      "instrument_ids": [
+        "SYN-EQ-0009"
+      ],
+      "combined_market_value_usd": 1118400.0,
+      "pct_of_client_aum": 13.67
+    },
+    {
+      "client_id": "CL-0005",
+      "driver": "SGD Fixed Deposit 3M",
+      "instrument_ids": [
+        "SYN-CA-0602"
+      ],
+      "combined_market_value_usd": 1109467.46,
+      "pct_of_client_aum": 5.72
+    },
+    {
+      "client_id": "CL-0006",
+      "driver": "Global Developed Equity Index",
+      "instrument_ids": [
+        "SYN-EQ-0001"
+      ],
+      "combined_market_value_usd": 1071000.0,
+      "pct_of_client_aum": 5.93
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 1050000.0,
+      "pct_of_client_aum": 7.01
+    },
+    {
+      "client_id": "CL-0002",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 1000000.0,
+      "pct_of_client_aum": 2.14
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "Global Healthcare Equity",
+      "instrument_ids": [
+        "SYN-EQ-0006"
+      ],
+      "combined_market_value_usd": 996600.0,
+      "pct_of_client_aum": 12.18
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "Global Healthcare Equity",
+      "instrument_ids": [
+        "SYN-EQ-0006"
+      ],
+      "combined_market_value_usd": 996600.0,
+      "pct_of_client_aum": 6.87
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "Asia ex-Japan Equity",
+      "instrument_ids": [
+        "SYN-EQ-0020"
+      ],
+      "combined_market_value_usd": 993000.0,
+      "pct_of_client_aum": 8.31
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "EUR Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0604"
+      ],
+      "combined_market_value_usd": 982800.0,
+      "pct_of_client_aum": 4.43
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "Singapore REIT ome",
+      "instrument_ids": [
+        "SYN-EQ-0024"
+      ],
+      "combined_market_value_usd": 978106.51,
+      "pct_of_client_aum": 8.18
+    },
+    {
+      "client_id": "CL-0020",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 850000.0,
+      "pct_of_client_aum": 4.46
+    },
+    {
+      "client_id": "CL-0004",
+      "driver": "USD Money Market",
+      "instrument_ids": [
+        "SYN-CA-0607"
+      ],
+      "combined_market_value_usd": 841600.0,
+      "pct_of_client_aum": 2.52
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "Verdant Health Group",
+      "instrument_ids": [
+        "SYN-ST-0109"
+      ],
+      "combined_market_value_usd": 818786.98,
+      "pct_of_client_aum": 6.85
+    },
+    {
+      "client_id": "CL-0012",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 800000.0,
+      "pct_of_client_aum": 2.85
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "XAU spot",
+      "instrument_ids": [
+        "SYN-CM-0402"
+      ],
+      "combined_market_value_usd": 768780.0,
+      "pct_of_client_aum": 3.4
+    },
+    {
+      "client_id": "CL-0018",
+      "driver": "HKD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0603"
+      ],
+      "combined_market_value_usd": 768245.84,
+      "pct_of_client_aum": 3.4
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "India Equity",
+      "instrument_ids": [
+        "SYN-EQ-0022"
+      ],
+      "combined_market_value_usd": 752800.0,
+      "pct_of_client_aum": 9.2
+    },
+    {
+      "client_id": "CL-0003",
+      "driver": "CHF Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0605"
+      ],
+      "combined_market_value_usd": 722021.66,
+      "pct_of_client_aum": 3.26
+    },
+    {
+      "client_id": "CL-0009",
+      "driver": "USD Money Market",
+      "instrument_ids": [
+        "SYN-CA-0607"
+      ],
+      "combined_market_value_usd": 631200.0,
+      "pct_of_client_aum": 2.0
+    },
+    {
+      "client_id": "CL-0015",
+      "driver": "Short Duration USD Bond",
+      "instrument_ids": [
+        "SYN-FI-0208"
+      ],
+      "combined_market_value_usd": 610200.0,
+      "pct_of_client_aum": 4.07
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "Global Infrastructure Debt",
+      "instrument_ids": [
+        "SYN-AL-0309"
+      ],
+      "combined_market_value_usd": 601200.0,
+      "pct_of_client_aum": 7.35
+    },
+    {
+      "client_id": "CL-0010",
+      "driver": "SGD Fixed Deposit 3M",
+      "instrument_ids": [
+        "SYN-CA-0602"
+      ],
+      "combined_market_value_usd": 517751.48,
+      "pct_of_client_aum": 6.33
+    },
+    {
+      "client_id": "CL-0008",
+      "driver": "XAU spot",
+      "instrument_ids": [
+        "SYN-CM-0402"
+      ],
+      "combined_market_value_usd": 512520.0,
+      "pct_of_client_aum": 4.29
+    },
+    {
+      "client_id": "CL-0001",
+      "driver": "USD Call Deposit",
+      "instrument_ids": [
+        "SYN-CA-0601"
+      ],
+      "combined_market_value_usd": 400000.0,
+      "pct_of_client_aum": 0.86
+    },
+    {
+      "client_id": "CL-0016",
+      "driver": "XAU spot",
+      "instrument_ids": [
+        "SYN-CM-0402"
+      ],
+      "combined_market_value_usd": 384390.0,
+      "pct_of_client_aum": 2.65
+    }
+  ]
+}

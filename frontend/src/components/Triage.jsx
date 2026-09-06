@@ -1,28 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Search, Settings, ChevronLeft, ChevronRight } from 'lucide-react';
 
-export const realClients = [
-  { id: 'CL-0014', name: 'Lau Chi Ming', status: 'critical', urgency: 92, reason: 'LTV 69.4% vs 70% trigger', creditScore: 94, liquidityScore: 88, horizonDays: '240d' },
-  { id: 'CL-0002', name: 'Ravi Chandrasekaran', status: 'critical', urgency: 88, reason: 'Margin call breach (75.64%)', creditScore: 92, liquidityScore: 84, horizonDays: '60d' },
-  { id: 'CL-0003', name: 'Sarah Jenkins', status: 'warning', urgency: 65, reason: 'High concentration in Tech', creditScore: 55, liquidityScore: 78, horizonDays: '110d' },
-  { id: 'CL-0004', name: 'Tan Ah Kow', status: 'warning', urgency: 62, reason: 'Approaching mandate limit', creditScore: 62, liquidityScore: 70, horizonDays: '270d' },
-  { id: 'CL-0005', name: 'Elena Rostova', status: 'stable', urgency: 45, reason: 'Stable', creditScore: 30, liquidityScore: 35, horizonDays: '420d' },
-  { id: 'CL-0006', name: 'Michael Chang', status: 'stable', urgency: 42, reason: 'Stable', creditScore: 58, liquidityScore: 75, horizonDays: '90d' },
-  { id: 'CL-0007', name: 'David Wong', status: 'stable', urgency: 40, reason: 'Stable', creditScore: 38, liquidityScore: 42, horizonDays: '300d' },
-  { id: 'CL-0008', name: 'Emma Watson', status: 'stable', urgency: 38, reason: 'Stable', creditScore: 35, liquidityScore: 40, horizonDays: '365d' },
-  { id: 'CL-0009', name: 'James Smith', status: 'stable', urgency: 35, reason: 'Stable', creditScore: 25, liquidityScore: 35, horizonDays: '450d' },
-  { id: 'CL-0010', name: 'Olivia Jones', status: 'stable', urgency: 33, reason: 'Stable', creditScore: 10, liquidityScore: 14, horizonDays: '700d' },
-  { id: 'CL-0011', name: 'William Brown', status: 'stable', urgency: 30, reason: 'Stable', creditScore: 20, liquidityScore: 25, horizonDays: '540d' },
-  { id: 'CL-0012', name: 'Sophia Davis', status: 'stable', urgency: 28, reason: 'Stable', creditScore: 52, liquidityScore: 68, horizonDays: '180d' },
-  { id: 'CL-0013', name: 'Alexander Miller', status: 'stable', urgency: 25, reason: 'Stable', creditScore: 42, liquidityScore: 35, horizonDays: '400d' },
-  { id: 'CL-0015', name: 'Isabella Wilson', status: 'stable', urgency: 22, reason: 'Stable', creditScore: 30, liquidityScore: 25, horizonDays: '520d' },
-  { id: 'CL-0016', name: 'Daniel Moore', status: 'stable', urgency: 20, reason: 'Stable', creditScore: 18, liquidityScore: 22, horizonDays: '600d' },
-  { id: 'CL-0017', name: 'Mia Taylor', status: 'stable', urgency: 18, reason: 'Stable', creditScore: 45, liquidityScore: 65, horizonDays: '120d' },
-  { id: 'CL-0018', name: 'Matthew Anderson', status: 'stable', urgency: 15, reason: 'Stable', creditScore: 28, liquidityScore: 30, horizonDays: '500d' },
-  { id: 'CL-0019', name: 'Charlotte Thomas', status: 'stable', urgency: 12, reason: 'Stable', creditScore: 68, liquidityScore: 72, horizonDays: '150d' },
-  { id: 'CL-0020', name: 'Joseph Jackson', status: 'stable', urgency: 10, reason: 'Stable', creditScore: 15, liquidityScore: 18, horizonDays: '650d' },
-  { id: 'CL-0021', name: 'Amelia White', status: 'stable', urgency: 8, reason: 'Stable', creditScore: 12, liquidityScore: 15, horizonDays: '720d' },
-];
+import realClientsData from '../triage_clients.json';
+
+export const realClients = realClientsData;
 
 const StatusIndicator = ({ status }) => {
   if (status === 'critical') return <span className="w-2 h-2 rounded-full shrink-0 bg-[#FF8B80]" />;
@@ -32,8 +13,25 @@ const StatusIndicator = ({ status }) => {
 
 export default function Triage({ selectedClientId, onSelectClient, onOpenAdvisory }) {
   const [search, setSearch] = useState('');
+  const [clientList, setClientList] = useState(realClientsData);
 
-  const filteredClients = realClients.filter(c =>
+  useEffect(() => {
+    fetch('http://localhost:8000/api/clients')
+      .then(res => {
+        if (res.ok) return res.json();
+        throw new Error('Failed to fetch from live backend');
+      })
+      .then(data => {
+        if (Array.isArray(data) && data.length > 0) {
+          setClientList(data);
+        }
+      })
+      .catch(err => {
+        console.warn('Backend unavailable, using cached pipeline output:', err);
+      });
+  }, []);
+
+  const filteredClients = clientList.filter(c =>
     c.name.toLowerCase().includes(search.toLowerCase()) ||
     c.id.toLowerCase().includes(search.toLowerCase()) ||
     c.reason.toLowerCase().includes(search.toLowerCase())
@@ -45,9 +43,9 @@ export default function Triage({ selectedClientId, onSelectClient, onOpenAdvisor
       <div className="px-5 pt-5 pb-4 border-b border-[#1D4036]/80 flex items-center justify-between">
         <div className="flex items-center gap-2.5">
           <div className="w-6 h-6 border border-[#C4D3CA]/40 rounded flex items-center justify-center text-xs font-serif font-bold text-[#F5F2EB]">
-            A
+            Y
           </div>
-          <span className="font-serif text-lg tracking-tight text-[#F5F2EB]">Aegis</span>
+          <span className="font-serif text-lg tracking-tight text-[#F5F2EB]">Yochi</span>
           <span className="text-[13px] text-[#C4D3CA] font-normal tracking-wide">Workbench</span>
         </div>
       </div>

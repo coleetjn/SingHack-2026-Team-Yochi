@@ -11,39 +11,39 @@ export default function Advisory({ selectedClientId, isOpen, onClose }) {
 
   const PIPELINE_STAGES = [
     {
-      agent: 'Agent 1: Forensic Structuring',
+      agent: 'Agent 1: Monitor Agent',
       badge: 'Deterministic Math',
       badgeColor: 'bg-[#EDEAE2] text-[#252822]',
-      action: 'Auditing LTV ratio & collateral valuation across portfolios',
-      sources: 'credit_facilities.csv, holdings.csv, portfolios.csv'
+      action: 'Auditing 5-snapshot LTV trajectory & issuer look-through unbundling',
+      sources: 'credit_facilities.csv, holdings.csv, instruments.csv'
     },
     {
-      agent: 'Agent 2: Look-Through Decomposition',
-      badge: 'Wrapper Unbundling',
-      badgeColor: 'bg-[#EDEAE2] text-[#252822]',
-      action: 'Decomposing funds, PE & structured notes for hidden single-name concentration',
-      sources: 'instruments.csv, mandates.csv'
-    },
-    {
-      agent: 'Agent 3: Causal Attribution',
-      badge: 'Deterministic Rules',
+      agent: 'Agent 2: Event-Grounding Agent',
+      badge: 'Timeline Attribution',
       badgeColor: 'bg-[#F5EBD4] text-[#89600C]',
-      action: 'Matching timeline movements against external macro shocks (Hormuz/OPEC)',
+      action: 'Causal matching against external macro event shocks',
       sources: 'event_log.csv, market_context.csv'
     },
     {
-      agent: 'Agent 4: Behavioral Reconciler',
-      badge: 'Heuristic Audit',
-      badgeColor: 'bg-[#F8EAE5] text-[#B93832]',
-      action: 'Detecting trade divergences vs documented RM risk advisory notes',
-      sources: 'rm_notes.json, transactions.csv'
+      agent: 'Agent 3: Compliance Agent',
+      badge: 'Mandate Governance',
+      badgeColor: 'bg-[#EDEAE2] text-[#252822]',
+      action: 'Auditing single-position concentration caps and documenting waivers',
+      sources: 'mandates.csv, rm_notes.json'
     },
     {
-      agent: 'Agent 5: Advisory Synthesis',
-      badge: 'Grounded LLM Narrator',
+      agent: 'Agent 4: Personality Agent',
+      badge: 'Behavioral Audit',
+      badgeColor: 'bg-[#F8EAE5] text-[#B93832]',
+      action: 'Extracting client conviction, framing guardrails & quoted evidence',
+      sources: 'rm_notes.json (Extraction-only)'
+    },
+    {
+      agent: 'Agent 5: Explainer & RM Handoff Agent',
+      badge: 'Advisory Synthesis',
       badgeColor: 'bg-[#12332B] text-[#F5F2EB]',
       action: 'Synthesizing verified telemetric citations into RM talking points & email opener',
-      sources: 'Strict Grounded Context (Zero-Hallucination Gate)'
+      sources: 'Strict Grounded Pipeline Output (Zero Invented Causality)'
     }
   ];
 
@@ -53,7 +53,7 @@ export default function Advisory({ selectedClientId, isOpen, onClose }) {
       setLoadingStep(0);
       interval = setInterval(() => {
         setLoadingStep((prev) => (prev < PIPELINE_STAGES.length - 1 ? prev + 1 : prev));
-      }, 950);
+      }, 1000);
     }
     return () => clearInterval(interval);
   }, [isDrafting]);
@@ -68,13 +68,21 @@ export default function Advisory({ selectedClientId, isOpen, onClose }) {
   if (!isOpen) return null;
 
   const handleDraft = async () => {
+    setDraft('');
     setIsDrafting(true);
+    setLoadingStep(0);
+    const startTime = Date.now();
     try {
-      const response = await fetch(`http://localhost:8000/api/clients/${selectedClientId}/advisory`, {
+      // Fetch backend dynamically in parallel with the 5-stage animation (5 * 1000ms = 5000ms)
+      const fetchPromise = fetch(`http://localhost:8000/api/clients/${selectedClientId}/advisory`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ energy_pct: 0, equity_pct: 0, rate_bps: 0 })
       });
+      const timerPromise = new Promise(resolve => setTimeout(resolve, 5000));
+      
+      const [response] = await Promise.all([fetchPromise, timerPromise]);
+      
       if (response.ok) {
         const data = await response.json();
         setDraft(data.script);
@@ -147,16 +155,16 @@ export default function Advisory({ selectedClientId, isOpen, onClose }) {
                 </span>
                 <div className="space-y-2 text-xs text-[#252822]">
                   <div className="p-3 bg-white border border-[#DADCD2] rounded-[4px]">
-                    <div className="font-semibold text-[#252822] mb-0.5">1. Lombard Facility Audit</div>
-                    <div className="text-[#666A61]">Real-time ratio check against 70.0% bank margin trigger.</div>
+                    <div className="font-semibold text-[#252822] mb-0.5">1. Multi-Portfolio Look-Through & LTV</div>
+                    <div className="text-[#666A61]">Audits collateral ratios across 5 snapshots and unbundles structured wrappers to underlying issuers.</div>
                   </div>
                   <div className="p-3 bg-white border border-[#DADCD2] rounded-[4px]">
-                    <div className="font-semibold text-[#252822] mb-0.5">2. Behavioral Guardrails</div>
-                    <div className="text-[#666A61]">Meeting transcripts scanned for biases, risk reluctance & liquidity constraints.</div>
+                    <div className="font-semibold text-[#252822] mb-0.5">2. Event-Grounding & Compliance</div>
+                    <div className="text-[#666A61]">Matches portfolio changes strictly to event_log.csv and checks mandate concentration caps.</div>
                   </div>
                   <div className="p-3 bg-white border border-[#DADCD2] rounded-[4px]">
-                    <div className="font-semibold text-[#252822] mb-0.5">3. Zero-Hallucination Gate</div>
-                    <div className="text-[#666A61]">Grounded strictly in verified repository records and timeline citations.</div>
+                    <div className="font-semibold text-[#252822] mb-0.5">3. Behavioral Guardrails (Zero-Hallucination)</div>
+                    <div className="text-[#666A61]">Extracts documented sentiment from rm_notes.json with quoted evidence or returns "insufficient signal".</div>
                   </div>
                 </div>
               </div>

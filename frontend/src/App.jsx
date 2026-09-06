@@ -28,7 +28,7 @@ function App() {
               <polyline points="2 12 12 17 22 12" />
             </svg>
             <div className="flex items-baseline gap-1.5">
-              <span className="font-serif text-lg tracking-tight text-[#252822]">Aegis</span>
+              <span className="font-serif text-lg tracking-tight text-[#252822]">Yochi</span>
               <span className="text-xs font-sans text-[#666A61] tracking-normal">Workbench</span>
             </div>
           </div>
